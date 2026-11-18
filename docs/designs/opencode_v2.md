@@ -62,8 +62,9 @@ It exposes the skills only through explicit entry points because their
 `disable-model-invocation` gates remain in force.
 
 The V2 candidate must remain separate from the user's global OpenCode config.
-Users launch it with an explicit configuration environment override and select
-the generated `egm` primary agent. Installation does not make a model request.
+Users launch it with an explicit isolated configuration directory and
+`--standalone`, then select the generated `egm` primary agent. Installation
+does not make a model request.
 
 ## V2 agent contract
 
